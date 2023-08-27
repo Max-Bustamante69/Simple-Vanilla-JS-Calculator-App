@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+html{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    height: 100%;
+}
+
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97d9e9 100%);
+    backdrop-filter: blur(9px);
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    border-radius: 25px;
+
+}
+
+.display{
+    margin: 20px;
+    height: 100%;
+    
+}
+
+table{
+   width: 100%;
+   height: 80%;
+}
+
+
+
+.panel{
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    opacity: 0.85;
+    background-color: #ffffec;
+    opacity: 0.75;
+}
+
+.panelText{
+    position: relative;
+    right: 5px;
+}
+
+
+
+
+button{
+    width: 100%;
+    height: 50%;
+    background-color: #ffffec;
+    opacity: 0.8;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+
+#mult button,#diff button,#sum button,#divide button{
+    background-color: #D9AFD9;
+}
+
+#equals button{
+    background-color: #97d9e9;
+}
+
+#clear button{
+    background-color: orange;
+}
