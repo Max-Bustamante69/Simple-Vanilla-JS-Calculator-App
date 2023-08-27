@@ -2,6 +2,14 @@
 
 This Markdown file provides a brief overview of a simple calculator app created using Vanilla JavaScript.
 
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Implementation Details](#implementation-details)
+    - [HTML Structure](#html-structure)
+
+      
 ## Overview
 
 The simple calculator app, named "Calculadora ++", is a basic web application that allows users to perform basic arithmetic calculations. It includes a user interface with buttons for numbers, arithmetic operations, and a display panel to show the calculation results.
